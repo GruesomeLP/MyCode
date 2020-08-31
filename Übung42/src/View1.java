@@ -11,7 +11,7 @@ import javax.swing.JPanel;
 import javax.swing.JTextField;
 
 public class View1 extends JFrame{
-	//Test
+	//Tests
 	Container cp;
 	JPanel p1 = new JPanel();
 	JPanel p2 = new JPanel();
