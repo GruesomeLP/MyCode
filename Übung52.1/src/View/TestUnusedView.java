@@ -18,6 +18,7 @@ import javax.swing.JTextField;
 import Control.Control;
 
 public class TestUnusedView extends JFrame {
+	//Test
 	
 	Container cp;
 	
@@ -31,7 +32,7 @@ public class TestUnusedView extends JFrame {
 	
 	
 	 String comboBoxListe[] = {"Standardsuche", "Standardsuche","Geldautomat","Notapotheke","Kino & Filme",
-		"Erweiterte Suche","Rückwärtssuche","Postleitzahlsuche","Vorwahlsuche",
+		"Erweiterte Suche","RÃ¼ckwÃ¤rtssuche","Postleitzahlsuche","Vorwahlsuche",
 	  };
 	 
 	private JComboBox Standardsuche = new JComboBox(comboBoxListe);
@@ -76,7 +77,7 @@ public TestUnusedView() {
 					one.setVisible(true);
 					t2.setText("Name (oder Suchwort)");
 					break;
-				case "Rückwärtssuche":
+				case "RÃ¼ckwÃ¤rtssuche":
 					one.add(Standardsuche);
 					three.setVisible(false);
 					t2.setText("Vorwahl und Telefonnummer");
